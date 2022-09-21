@@ -1,0 +1,55 @@
+body {
+    color: #F2E9E4;
+    background-color: #22223B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color: #C9ADA7;
+    font-family: 'Special Elite', cursive;
+}
+.header {
+    font-family: 'Special Elite', cursive;
+}
+.rules {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.selection {
+    background-color: #4A4E69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0;
+}
+button {
+    opacity: 0.7;
+}
+button:hover {
+    border: 2px solid #C9ADA7;
+    cursor: pointer;
+    opacity: 1;
+}
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.score-container h2 {
+    margin-bottom: 0px;
+}
+.show-result {
+    color: #9A8C98;
+}
+.single-score {
+    display: flex;
+    gap: 35px;
+}
+footer {
+    margin-top: 40px;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <!--the next style tag is just to import 'Special Elite' font from googlefonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Special+Elite&display=swap');
+    </style>
+    <!--importamos la libreria desde: https://www.typeitjs.com/docs/vanilla -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js" defer></script>
+    <script src="./index.js" defer></script>
+    <title>Rock, paper and scissors</title>
+</head>
+<body>
+    <header class="header">
+        <h1 id="myElement">Let's play rock, paper & scissors</h1> <!-- A root element for TypeIt to target. -->
+    </header>
+    <main class="main">
+        <div class="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>You will be playing against the computer</li>
+                <li>First to score 5 points wins the game</li>
+            </ul>
+        </div>
+        <div class="selection">
+            <h2>What is your choice?</h2>
+            <div class="choice-btn">
+                <button class="rock">
+                    <img src="./images/rock.svg" alt="picture of a rock" width="200px" height="200px">
+                </button>
+                <button class="paper">
+                    <img src="./images/paper.svg" alt="picture of a paper" width="200px" height="200px">
+                </button>
+                <button class="scissors">
+                    <img src="./images/scissor.svg" alt="picture of a scissor" width="200px" height="200px">
+                </button>
+            </div>
+        </div>
+        <div class="score-container">
+            <h2 class="score-h2">Score</h2>
+            <div class="show-result">let the game begin</div>
+            <div class="single-score">
+                <div class="player-box">
+                    <p class="player-score">Player: 0</p>
+                </div>
+                <div class="computer-box">
+                    <p class="computer-score">Computer: 0</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>copyright: <a href="https://github.com/ulloa-g">Gabriel Ulloa</a></footer>
+</body>
+</html>
